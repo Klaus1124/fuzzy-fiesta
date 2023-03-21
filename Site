@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minha Página com PDF</title>
+    <style>
+      /* Define o tamanho padrão do elemento embed */
+      embed {
+        width: 800px;
+        height: 2100px;
+      }
+
+      /* Define um tamanho menor para telas com largura máxima de 600px */
+      @media (max-width: 600px) {
+        embed {
+          width: 400px;
+          height: 1050px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <embed src="meu_arquivo.pdf" />
+  </body>
+</html>
